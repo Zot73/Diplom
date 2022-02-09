@@ -1,0 +1,101 @@
+body {font-family: "Gilroy", sans-serif;
+    margin: 0;
+    height: 340px;
+    background: linear-gradient( to right, #fce2de 55%,
+     #fdf8fb 45%) no-repeat;}
+    h1, h3, p {
+        margin: 0;
+    }
+    h2 {font-family: "Playfair Display", serif;
+        margin-bottom: 7px;}
+    h4 {font-weight: 400;}
+   
+    .span1 {vertical-align: middle; font-size: 36px; 
+           font-weight:500; color:black}
+    .span2 {vertical-align: middle;
+            font-size: 18px; 
+            color:darkgray;margin-left: 5px;}
+
+    a { color: black;
+        text-decoration: none;
+    }
+    a:hover{color:rgb(163, 1, 69)}
+    
+    .a1 { color: rgb(119, 118, 118);
+        text-decoration: none;
+    }
+    .a1:focus{color:rgb(0, 0, 0)}
+    
+    .a11 { color: rgb(119, 118, 118);
+        margin-left: 57px;
+        text-decoration: none;
+    }
+    .a11:focus{color:rgb(0, 0, 0)}
+    
+    
+    header {
+        margin: 0 auto;
+        margin-bottom: 27px;}
+    
+    .cnt {padding: 43px  0  68px 152px;}
+
+    .header-nav {padding: 43px  0  68px 152px;
+        display: inline;
+        vertical-align: middle;
+        font-weight: 700;}
+
+
+    .card {margin-left: 152px;
+        display:inline-block;
+        vertical-align: top;
+        background-color: white;
+        width: 209px;
+        height: 400px;
+        padding: 23px;
+        overflow: hidden;
+        border-top: 5px solid transparent;
+        box-shadow: 2px 2px 30px rgba(56, 54, 53, 0.2);
+        box-sizing: border-box;
+        
+    }
+    
+    .card1 {display:inline-block;
+        margin-left: 52px;
+        background-color: white;
+        vertical-align: top;
+        width: 209px;
+        height: 400px;
+        padding: 23px;
+        overflow: hidden;
+        border-top: 5px solid transparent;
+        box-shadow: 2px 2px 30px rgba(56, 54, 53, 0.2);
+        box-sizing: border-box;
+        
+    }
+
+    .card:hover {top: 59px;  height: 
+                459px;border-top: 5px solid rgb(56, 54, 53);}
+        
+    .card1:hover {top: 59px; height: 459px;
+                 border-top: 5px solid rgb(56, 54, 53);}
+        
+button {position:relative;
+    bottom: 13px;
+    left: -23px;
+    display: none;
+    padding: 18px 66px;
+    background-color:rgb(8, 8, 8);;
+    font-weight: normal;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    border: 0; 
+    cursor:pointer;}
+
+.card:hover button{ display: block;
+    width: 140%;
+    cursor:pointer;}
+
+ .card1:hover button{ display: block;
+    width: 140%;
+    cursor:pointer;}
