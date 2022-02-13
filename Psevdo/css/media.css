@@ -1,0 +1,77 @@
+
+
+@media (max-width: 425px) {
+    
+    .back {
+        visibility: hidden;
+    }
+
+    
+    .sectn2 {
+        margin-left: 0;
+    }
+
+    .card .card1 {
+        margin-left: 0;
+        width: 209px;
+        height: auto;
+        padding: 23px;
+        
+    }
+    
+    .slid {
+        margin-top: 10px;
+        height: 1060px;
+        width: 1440px;
+        height: 100%;
+        overflow-x: scroll;
+    }
+}
+
+@media (max-width: 768px) {
+    .back {
+        visibility: hidden;
+    }
+
+    main {
+
+        height: 100%;
+    }
+
+
+    .slider {
+        width: 100%;
+        height: 100px;
+    }
+
+
+    .div_item {
+        height: 100%;
+    }
+
+
+    .slid {
+        height: 880px;
+        width: 1440px;
+        height: auto;
+        overflow-x: scroll;
+    }
+}
+
+@media  (width: 1024px) {
+
+    
+
+
+    .cnt .header-nav {
+        margin-left: 2%;
+    }
+
+    .slid {
+        margin-top: 28%;
+        height: 660px;
+        width: 1440px;
+        height: auto;
+        overflow-x: scroll;
+    }
+}
